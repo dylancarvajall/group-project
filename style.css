@@ -8,11 +8,13 @@
   height: 80px;
   /* background-color: red; */
   background-image: url(https://media-cdn.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/accounts/media/gYuK76HNSxeFUxkmYHIg_cofav.png);
-  background-size:120%;
+  background-size:100%;
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: center;
   max-height: 80px;
 }
 
-
+ul .dropdown-menu{
+  text-transform: capitalize;
+}
