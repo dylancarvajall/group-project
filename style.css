@@ -1,0 +1,18 @@
+.container-fluid img {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+  /* background-color: red; */
+  background-image: url(https://media-cdn.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/accounts/media/gYuK76HNSxeFUxkmYHIg_cofav.png);
+  background-size:120%;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  max-height: 80px;
+}
+
+
