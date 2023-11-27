@@ -1,0 +1,79 @@
+:root{
+    background-color: white;
+  }
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .site-header-desktop-secondary-action {
+    color: #222222;
+    font: 14.4px 'Roboto';
+    padding: 0 px 33.75px;
+  }
+
+#nav{
+    background-color: black; 
+ }
+
+#nav.container-fluid {
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    font-size: 18px;
+    height: 91.25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 33.75px;
+    padding-right: 33.75px;
+ }
+
+.navbar {
+    color: #222222;
+    font: 18px 'Roboto';
+    background: #000000;
+    padding: 9px 0px;
+}
+
+ .nav-link {
+    display: block;
+    font-family: 'Roboto';
+    font-size: 14.4px;
+    text-decoration: rgba(255, 255, 255, 0.64);
+    color: white;
+    border: 0;
+    transition: color .15s;
+ }
+
+ .dropdown-toggle {
+    display: block;
+    text-decoration: none;
+    border: 0;
+    transition: color .15s;
+ }
+
+ .site-header-desktop {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+ }
+
+ .site-header-desktop-secondary {
+    width: 100%;
+    font-size: .8rem;
+    background-color: #e32526;
+    padding-top: .5em;
+    padding-bottom: .5em;
+ }
+
+#logo {
+    width: 80px;
+    height: 80px;
+    line-height: 90px;
+    background: url(https://media-cdn.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/accounts/media/gYuK76HNSxeFUxkmYHIg_cofav.png) center no-repeat;
+    background-size: 100%;
+  } 
+
+  ul .dropdown-menu{
+    text-transform: capitalize;
+  }

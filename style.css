@@ -28,3 +28,34 @@
 ul .dropdown-menu{
   text-transform: capitalize;
 }
+
+/*.hospitality_item {
+  object-position: none;
+  background-image: url(https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/56113Asset_1.png);
+}
+
+footer {
+  background-color: #000000;
+  color: #222222;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  padding: 52.875px 0px;
+}
+
+.footer-space {
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  display: none;
+  height: 0px;
+  line-height: 27px;
+}
+
+element.style {
+  box-sizing: border-box;
+  height: 0px;
+  color: rgb(34, 34, 34);
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 27px;
+
+} */
