@@ -32,7 +32,7 @@
     color: #222222;
     font: 18px 'Roboto';
     background: #000000;
-    padding: 9px 0px;
+    padding: 0px 0px;
 }
 
  .nav-link {
@@ -77,3 +77,103 @@
   ul .dropdown-menu{
     text-transform: capitalize;
   }
+
+  .jumbotron {
+    background-color: transparent !important;
+    background-position: center -200px;
+}
+
+  .jumbotron h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 36px; 
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+.jumbotron h1:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 15px;
+    background-image: url(http://getbento.imgix.net/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/85407chopsticksdrk.png);
+    background-size: contain;
+    margin: 15px auto 0;
+    background-repeat: none;
+    background-position: center;
+}
+
+.jumbotron p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: block;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-block-end: 18px;
+    margin-block-start: 0px;
+    margin-bottom: 18px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.chop-sticks {
+    width: 400px;
+    height: 10px;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+}
+
+.header img {
+  width: 100px;
+  height: 10px;
+}
+
+.intro a {
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 31.5px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    text-decoration-color: rgb(68, 68, 68);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition-delay: 0s;
+    transition-property: color;
+}
+
+.content {
+    text-align: center;
+}
+
+
+/*#chop {
+
+    background-image: url(http://getbento.imgix.net/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/85407chopsticksdrk.png);
+    width: 50px;
+    height: 10px;
+}
+
+/*.features img {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+    width: 100px; 
+} */
