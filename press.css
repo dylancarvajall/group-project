@@ -1,3 +1,81 @@
-.header {
+#pressheader {
+    color: white;
+    background-color: darkgrey;
+    text-align: center;
+    margin-right: 60px;
+    padding: 288px;
     
+   
+
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    column-gap: 50px;
+    row-gap: 60px;
+    margin: 50px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-size: medium;
+    
+    
+  }
+
+#bolden {
+    font-weight: bold;
+}
+
+
+#downbuttonlanding {
+    text-align: center;
+    font-size: xx-large;
+    margin-right: 60px;
+    padding: 50px;
+    font-weight: bold;
+
+}
+
+.thisScope {
+    background-color: brown;
+    color: blue;
+    float: right;
+    padding: .5in;
+}
+
+#loadmore {
+    margin-left: 45%;
+    margin-top: 40%;
+    margin-bottom: 600px;
+}
+
+
+#sub-heading {
+    color: blue;
 }
