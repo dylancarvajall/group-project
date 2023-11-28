@@ -35,12 +35,24 @@
     padding: 0px 0px;
 }
 
- .nav-link {
+ .dropdown-toggle {
     display: block;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 14.4px;
     text-decoration: rgba(255, 255, 255, 0.64);
-    color: white;
+    color: #ffffff;
+    background-color: transparent;
+    box-shadow: none;
+    border: 0;
+    transition: color .15s;
+ }
+
+ .nav-link {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14.4px;
+    text-decoration: rgba(255, 255, 255, 0.64);
+    color: #ffffff;
     background-color: transparent;
     box-shadow: none;
     border: 0;
