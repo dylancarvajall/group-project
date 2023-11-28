@@ -110,7 +110,7 @@
                 <i class="error-label"></i>
                 <span class="input-label">Select Amount
                      <span class="input-label-required">- Required</span>
-                    
+                </label>
                 </span>
                 
                                     <div class="form-control-group has-icon-right">
@@ -140,10 +140,11 @@
                      <span class="input-label-required">- Required</span>
                     
                 </span>
+                <!--Close label tag due to the wrapped in both label and input tags are enough to associate the two together-->
+            </label>
                 
                                     <input id="physical-recipient-name" class="form-control" type="text" name="recipient_name" placeholder="Recipient’s Name" required>
                                 
-            </label>
             
                  <br>               
             <label for="physical-recipient-street-address-1" >
@@ -152,15 +153,16 @@
                      <span class="input-label-required">- Required</span>
                     
                 </span>
-                
+            </label>
                                     <input id="physical-recipient-street-address-1" class="form-control" type="text" name="recipient_street_address_1" placeholder="Recipient’s Street Address 1" required>
                                 
-            </label>
+            
             <br>
                                 <label for="physical-recipient-street-address-2">
                                     <span class="input-label">Recipient’s Street Address 2</span>
-                                    <input id="physical-recipient-street-address-2" class="form-control" type="text" name="recipient_street_address_2" placeholder="Recipient’s Street Address 2">
                                 </label>
+                                    <input id="physical-recipient-street-address-2" class="form-control" type="text" name="recipient_street_address_2" placeholder="Recipient’s Street Address 2">
+                                
                                 <br>
             <label for="physical-recipient-city" >
                 <i class="error-label"></i>
@@ -168,17 +170,17 @@
                      <span class="input-label-required">- Required</span>
                     
                 </span>
-                
+            </label>
                                     <input id="physical-recipient-city" class="form-control" type="text" name="recipient_city" placeholder="City" required>
                                 
-            </label>
+            
             <br>
                                 
             <label for="physical-recipient-state" >
                 <i class="error-label"></i>
                 <span class="input-label">State
                      <span class="input-label-required">- Required</span>
-                    
+                </label>
                 </span>
                 
                                     <div class="form-control-group has-icon-right">
@@ -264,10 +266,10 @@
                      <span class="input-label-required">- Required</span>
                     
                 </span>
-                
+            </label>
                                     <input id="physical-recipient-postal-code" class="form-control" type="text" name="recipient_postal_code" placeholder="Zip Code" required>
                                 
-            </label>
+            
             <br>
                             </div>
                             <div class="form-ui__group">
@@ -278,17 +280,18 @@
                      <span class="input-label-required">- Required</span>
                     
                 </span>
+            </label>
                 
                                     <input id="physical-gifter" class="form-control" type="text" name="gifter_name" placeholder="Your Name" required autocomplete="name">
                                 
-            </label>
+            
             
                 <br>                
             <label for="physical-your-message" >
                 
                 <span class="input-label">Your Message
                      <span class="input-label-optional">- Optional</span>
-                    
+                </label>
                 </span>
                 
                                     <textarea id="physical-your-message" class="form-control" name="message" placeholder="Your Message" maxlength='250'></textarea>

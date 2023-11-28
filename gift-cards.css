@@ -35,6 +35,10 @@
     padding: 0px 0px;
 }
 
+.nav-link:hover, nav-link:focus {
+    color: grey;
+}
+
  .dropdown-toggle {
     display: block;
     font-family: 'Roboto', sans-serif;
@@ -374,7 +378,8 @@ select {
     width: 50%;
     line-height: 2.56944rem;
     line-height: 2.56944rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0px
+    ;
 }
 
 .hospitality__item img {
@@ -394,6 +399,7 @@ select {
 .hospitality__list {
     list-style: none;
     color: black;
+    margin-bottom: 0px;
 }
 
 .site-nav ul {
@@ -407,6 +413,9 @@ select {
 
 .site-footer-desktop-primary {
     background-color: black;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
 }
 
 .site-nav-menu {
