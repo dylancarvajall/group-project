@@ -1,0 +1,23 @@
+.container h4{
+  font-size-adjust: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  width: 80%;
+  padding: 1em 4%;
+  margin-left:10px;
+  text-transform: uppercase;
+}
+
+.container .col-sm-4 a{
+  text-decoration: none;
+  color: black;
+}
+
+.container .col-sm-4 h4:hover{
+  color: orange;
+}
+
+.features{
+  padding: 5% 0;
+}
